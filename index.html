@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moving Car</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 class="heading"> a project by rf-gul</h1>
     <div class="container">
-        <audio id="myAudio">
-            <source src="audio/sound.mp3" type="audio/mpeg">
-          
-          </audio>
-          
-        <div class="sky">
-            <div class="trees"></div>
-            <div class="track"></div>
-            <div class="car">
-                <!-- <div class="wheel"> -->
+        <div class="container">
+            <div class="sky">
+                <div class="trees"></div>
+                <div class="track"></div>
+                <div class="car">
+                    <!-- <div class="wheel"> -->
                     <div class="wheel1">
-                        <img src="images/car_wheel_right.png" alt="">
-                     </div>
-                     <div class="wheel2">
-                        <img src="images/car_wheel_left.png" alt="">
+                        <img src="images/car_wheel_right.png" alt="" />
                     </div>
-                <!-- </div> -->
-               
+                    <div class="wheel2">
+                        <img src="images/car_wheel_left.png" alt="" />
+                    </div>
+                    <!-- </div> -->
+                </div>
             </div>
         </div>
+      <audio id="myAudio">
+        <source src="audio/sound.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div class="sky">
+        <div class="trees"></div>
+        <div class="track"></div>
+        <div class="car">
+          <!-- <div class="wheel"> -->
+          <div class="wheel1">
+            <img src="images/car_wheel_right.png" alt="" />
+          </div>
+          <div class="wheel2">
+            <img src="images/car_wheel_left.png" alt="" />
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+.heading {
+    position: relative;
+    z-index: 1;
+}
 </html>
